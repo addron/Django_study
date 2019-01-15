@@ -23,6 +23,7 @@ urlpatterns = [
     url(r'^cook/', include('cook.urls')),
     url(r'^sessiondemo/', include('sessiondemo.urls')),
     url(r'^demoview/', include('demoview.urls')),
-    url(r'^demotemplates/', include('demotemplates.urls'))
+    url(r'^demotemplates/', include('demotemplates.urls')),
+    url(r'^booktest/', include('booktest.urls'))
 
 ]
